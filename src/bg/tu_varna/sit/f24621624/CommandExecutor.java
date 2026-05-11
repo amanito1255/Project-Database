@@ -2,6 +2,7 @@ package bg.tu_varna.sit.f24621624;
 
 import bg.tu_varna.sit.f24621624.commands.generalCommands.*;
 import bg.tu_varna.sit.f24621624.commands.interfaces.Command;
+import bg.tu_varna.sit.f24621624.commands.tableCommands.DescribeCommand;
 import bg.tu_varna.sit.f24621624.commands.tableCommands.ImportCommand;
 import bg.tu_varna.sit.f24621624.commands.tableCommands.ShowTablesCommand;
 import bg.tu_varna.sit.f24621624.files.FileService;
@@ -22,6 +23,7 @@ public class CommandExecutor {
 
         register(new ImportCommand());
         register(new ShowTablesCommand());
+        register(new DescribeCommand());
     }
 
     private void register(Command cmd)

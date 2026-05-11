@@ -18,7 +18,10 @@ public class Table
 
     public String getName() { return name; }
     public List<List<Object>> getRows() { return rows; }
-    public List<String> getColumnTypes() { return columnTypes; }
+    public List<String> getColumnTypes()
+    {
+        return columnTypes;
+    }
 
     public void addRow(List<Object> row) {
         this.rows.add(row);
