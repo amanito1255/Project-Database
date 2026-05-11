@@ -33,7 +33,6 @@ public class OpenCommand implements Command
         if (!file.exists()) {
             return "File: " + path + " not exist, but it it's selected to be used";
         }
-
         return "Successfully opened file: " + path;
     }
 }

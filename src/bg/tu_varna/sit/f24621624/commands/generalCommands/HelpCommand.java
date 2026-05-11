@@ -4,10 +4,16 @@ import bg.tu_varna.sit.f24621624.commands.interfaces.Command;
 
 public class HelpCommand implements Command {
     @Override
-    public String getName() { return "help"; }
+    public String getName()
+    {
+        return "help";
+    }
 
     @Override
-    public String getDescription() { return "help (shows all supported commands)"; }
+    public String getDescription()
+    {
+        return "help (shows all supported commands)";
+    }
 
     @Override
     public String execute(String[] args) {

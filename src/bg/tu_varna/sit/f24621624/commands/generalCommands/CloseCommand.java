@@ -6,7 +6,10 @@ import bg.tu_varna.sit.f24621624.models.Database;
 
 public class CloseCommand implements Command {
     @Override
-    public String getName() { return "close"; }
+    public String getName()
+    {
+        return "close";
+    }
 
     @Override
     public String getDescription()
