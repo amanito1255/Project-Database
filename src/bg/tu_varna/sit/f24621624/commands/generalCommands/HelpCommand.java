@@ -7,7 +7,7 @@ public class HelpCommand implements Command {
     public String getName() { return "help"; }
 
     @Override
-    public String getDescription() { return "help - shows all supported commands"; }
+    public String getDescription() { return "help (shows all supported commands)"; }
 
     @Override
     public String execute(String[] args) {

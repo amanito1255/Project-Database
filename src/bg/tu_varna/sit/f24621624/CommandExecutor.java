@@ -1,5 +1,6 @@
 package bg.tu_varna.sit.f24621624;
 
+import bg.tu_varna.sit.f24621624.commands.generalCommands.CloseCommand;
 import bg.tu_varna.sit.f24621624.commands.generalCommands.ExitCommand;
 import bg.tu_varna.sit.f24621624.commands.generalCommands.HelpCommand;
 import bg.tu_varna.sit.f24621624.commands.generalCommands.OpenCommand;
@@ -16,6 +17,7 @@ public class CommandExecutor {
         register(new OpenCommand());
         register(new ExitCommand());
         register(new HelpCommand());
+        register(new CloseCommand());
     }
 
     private void register(Command cmd)

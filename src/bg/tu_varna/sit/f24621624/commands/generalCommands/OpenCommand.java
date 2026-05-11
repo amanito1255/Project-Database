@@ -15,7 +15,7 @@ public class OpenCommand implements Command
     @Override
     public String getDescription()
     {
-        return "open <file_path> - open file with data";
+        return "open <file_path>  (open file with data)";
     }
 
     @Override
