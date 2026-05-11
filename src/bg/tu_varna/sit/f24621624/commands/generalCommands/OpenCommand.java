@@ -1,4 +1,4 @@
-package bg.tu_varna.sit.f24621624.commands.fileCommands;
+package bg.tu_varna.sit.f24621624.commands.generalCommands;
 
 import bg.tu_varna.sit.f24621624.commands.interfaces.Command;
 import bg.tu_varna.sit.f24621624.files.FileService;
