@@ -2,6 +2,8 @@ package bg.tu_varna.sit.f24621624;
 
 import bg.tu_varna.sit.f24621624.commands.generalCommands.*;
 import bg.tu_varna.sit.f24621624.commands.interfaces.Command;
+import bg.tu_varna.sit.f24621624.commands.tableCommands.ImportCommand;
+import bg.tu_varna.sit.f24621624.commands.tableCommands.ShowTablesCommand;
 import bg.tu_varna.sit.f24621624.files.FileService;
 import java.util.*;
 
@@ -17,6 +19,9 @@ public class CommandExecutor {
         register(new CloseCommand());
         register(new SaveCommand());
         register(new SaveAsCommand());
+
+        register(new ImportCommand());
+        register(new ShowTablesCommand());
     }
 
     private void register(Command cmd)

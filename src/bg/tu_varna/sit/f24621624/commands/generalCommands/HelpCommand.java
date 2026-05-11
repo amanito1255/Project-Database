@@ -12,12 +12,12 @@ public class HelpCommand implements Command {
     @Override
     public String getDescription()
     {
-        return "help (shows all supported commands)";
+        return "help (shows all commands)";
     }
 
     @Override
     public String execute(String[] args) {
-        return "Supported commands:\n" +
+        return "Supported bg.tu_varna.sit.f24621624.commands:\n" +
                 "open <file> (opens a file)\n" +
                 "close (closes current file)\n" +
                 "exit (exits the program)\n" +
