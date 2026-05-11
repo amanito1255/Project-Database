@@ -1,4 +1,4 @@
-package commands.interfaces;
+package bg.tu_varna.sit.f24621624.commands.interfaces;
 
 public interface Command
 {
