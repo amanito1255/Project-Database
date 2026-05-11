@@ -1,9 +1,6 @@
 package bg.tu_varna.sit.f24621624;
 
-import bg.tu_varna.sit.f24621624.commands.generalCommands.CloseCommand;
-import bg.tu_varna.sit.f24621624.commands.generalCommands.ExitCommand;
-import bg.tu_varna.sit.f24621624.commands.generalCommands.HelpCommand;
-import bg.tu_varna.sit.f24621624.commands.generalCommands.OpenCommand;
+import bg.tu_varna.sit.f24621624.commands.generalCommands.*;
 import bg.tu_varna.sit.f24621624.commands.interfaces.Command;
 import bg.tu_varna.sit.f24621624.files.FileService;
 import java.util.*;
@@ -18,6 +15,8 @@ public class CommandExecutor {
         register(new ExitCommand());
         register(new HelpCommand());
         register(new CloseCommand());
+        register(new SaveCommand());
+        register(new SaveAsCommand());
     }
 
     private void register(Command cmd)
