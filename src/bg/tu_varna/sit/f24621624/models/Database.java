@@ -11,13 +11,15 @@ public class Database
     private Database() {}
 
     public static Database getInstance() {
-        if (instance == null) {
+        if (instance == null)
+        {
             instance = new Database();
         }
         return instance;
     }
 
-    public void addTable(Table table) {
+    public void addTable(Table table)
+    {
         tables.put(table.getName(), table);
     }
 

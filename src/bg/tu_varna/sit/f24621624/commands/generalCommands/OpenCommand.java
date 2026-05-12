@@ -8,12 +8,14 @@ public class OpenCommand implements Command
 {
     @Override
     public String getName()
+
     {
         return "open";
     }
 
     @Override
     public String getDescription()
+
     {
         return "open <file_path>  (open file with data)";
     }

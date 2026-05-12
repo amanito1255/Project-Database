@@ -16,7 +16,6 @@ public class SaveAsCommand implements Command {
         }
 
         String newPath = args[0];
-        // Тук по-късно ще реализираме реалния запис
         return "Successfully saved data as " + newPath;
     }
 }
